@@ -411,6 +411,7 @@ table:hover,
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  margin: 0 auto;
 }
 
 .gallery2-1-img {
@@ -420,6 +421,7 @@ table:hover,
   width: 60%;
   height: 90%;
   padding-bottom: 0rem;
+  margin: 0 auto;
 }
 .gallery3-img {
   display: block;
