@@ -1,0 +1,70 @@
+/* 1rem = 1em = 16px * */
+/* BELOW 1344px (Smaller desktops) */
+@media (max-width: 84em) {
+  .main {
+    max-width: 120rem;
+  }
+}
+
+/* BELOW 1200px (Landscape Tabblets) */
+@media (max-width: 75rem) {
+  html {
+    font-size: 56.25%;
+  }
+  #lightbox img {
+    max-width: 90%;
+  }
+}
+
+/* BELOW 930 (Tablets */
+@media (max-width: 59rem) {
+  html {
+    font-size: 48%;
+  }
+
+  #lightbox img {
+    max-width: 80%;
+  }
+}
+
+/* BELOW 780 */
+@media (max-width: 49rem) {
+  .main {
+    padding: 0 3rem;
+  }
+  .skill1 {
+    width: 20%;
+  }
+
+  .skill2 {
+    width: 80%;
+  }
+}
+
+/* BELOW 560 */
+@media (max-width: 35rem) {
+  .heading-primary {
+    width: 40%;
+  }
+  .nav-welcom {
+    gap: 2rem;
+  }
+  .gallery3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery2 img {
+    width: 100%;
+  }
+
+  #lightbox img {
+    max-width: 95%;
+    max-height: 90vh;
+  }
+
+  #prev-btn,
+  #next-btn {
+    font-size: 1.2rem;
+    top: 52.5%;
+  }
+}

@@ -10,10 +10,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <script src="script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/41e0687ee2.js"
       crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
     ></script>
 
     <meta name="author" content="Duc Minh Nguyen" />
@@ -25,13 +30,17 @@
     <header class="container">
       <div class="top-bar header">
         <!-- <h2 class="title">Minh Nguyen</h2> -->
-        <ul class="nav-welcom">
+        <!-- <nav class="main-nav"> -->
+        <ul class="nav-welcom">          
             <li><a class="main-nav-link" href="#page-1">About me</a></li>
             <li><a class="main-nav-link" href="#page-2">Resume</a></li>            
             <li><a class="main-nav-link" href="#page-3">Projects</a></li>
             <li><a class="main-nav-link" href="#page-4">Contact</a></li>             
           </ul>
-        </nav>
+        <!-- </nav> -->
+        
+        <!-- <button class="btn-mobile-nav"><ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon></button> -->
       </div>
     </header>
 
@@ -73,7 +82,7 @@
         <th class="text-align-left">Master of Information Technology at Flinders University, AUS
         </th>
         <td class="text-align-right">
-          Duration: Feb 2021 – Dec 2023
+          Duration: Feb 2022 – Dec 2023
         </td>    
       </table>
            
@@ -88,7 +97,7 @@
           ">Flinders University</a>, SA 
         </th>
         <td class="text-align-right">
-          Feb 2021 – Dec 2023
+          Feb 2022 – Dec 2023
         </td>    
       </table>
       <table class="table1 middle-line ">
@@ -129,7 +138,7 @@
 
 
       <table class="table1">
-        <th class="text-align-left">Shop Front Vacancy Audit Officer - Economic Development & International for <a class="link" href="https://www.melbourne.vic.gov.au/Pages/home.aspx
+        <th class="text-align-left">Shop Front Vacancy Audit Officer for <a class="link" href="https://www.melbourne.vic.gov.au/Pages/home.aspx
           ">Council City of Melbourne</a>, VIC
         </th>
         <td class="text-align-right">
@@ -138,7 +147,7 @@
       </table>
       <table class="table1">
         <td class="note">     
-          The Shop Front Vacancy Audit team is responsible for auditing 100% of businesses over a monthly reporting cycle as this is critical to the success of the program. To gather business operational data, helping to establish when business is open or reopening for community forums or communication platforms.
+          The Shop Front Vacancy Audit team (Economic Development & International) is responsible for auditing 100% of businesses over a monthly reporting cycle as this is critical to the success of the program. To gather business operational data, helping to establish when business is open or reopening for community forums or communication platforms.
         </td>
       </table>
       <table class="table1 middle-line">
@@ -178,7 +187,7 @@
       </div>      
     </section>
     <div class="resume-download">
-    <a class="down-link" href="file/Resume_Minh-Nguyen24.pdf" alt="Download My resume here">👉Download My Resume Here👈</a>    
+    <a class="down-link" href="file/Resume_Minh-Nguyen.pdf" alt="Download My resume here">👉Download My Resume Here👈</a>    
     </div>
     </div>
     <!-- PROJECTS -->
@@ -266,8 +275,7 @@
     <img id="lightbox-img" src="" alt="lightbox image">
     
     <!-- Thumbnails container -->
-    <div id="thumbnail-container">
-      <!-- Thumbnails will be added dynamically using JavaScript -->
+    <div id="thumbnail-container">      
     </div>
     
         <!-- Previous and Next buttons -->
@@ -335,11 +343,11 @@
 <div class="project-picture"><figure class="gallery-item">
   <h4 class="sub-title2"><strong>Picture Gallery</strong></h4>
   <p class="sub">An Example of defect report 👇</p>  
-  <div class="gallery1">
-    <img id="P2-1" src="images/P2.1.png"
+  <div class="gallery2">
+    <img class="gallery2-1-img" id="P2-1" src="images/P2.1.png"
     alt="Image 1">    
     <p class="sub">JUnit test coverage 👇</p>
-    <img id="P2-2" src="images/P2.3.png"
+    <img class="gallery2-img" id="P2-2" src="images/P2.3.png"
     alt="Image 2">
     
   </div>
@@ -402,14 +410,14 @@
     <div class="project-picture"><figure class="gallery-item">
       <h4 class="sub-title2"><strong>Picture Gallery</strong></h4>
       <!-- <p class="sub">An Example of defect report 👇</p>   -->
-      <div class="gallery1 gallery-boder">
-        <img src="images/P3.1.png"
+      <div class="gallery3">
+        <img class="gallery3-img" src="images/P3.1.png"
         alt="Image 1">
-        <img src="images/P3.2.png"
+        <img class="gallery3-img" src="images/P3.2.png"
         alt="Image 2">        
-        <img id="P3-3" src="images/P3.3.png"
+        <img class="gallery3-img" src="images/P3.3.png"
         alt="Image 3">       
-        <img id="P3-4" src="images/P3.4.png"
+        <img class="gallery3-img" src="images/P3.4.png"
         alt="Image 4">        
       </div>
  
@@ -460,8 +468,7 @@
         <span class="icon">
           <i class="fa-solid fa-envelope"></i><br><a class="footer-link mail" href="mailto:ducminhcrlaw@gmail.com">Email: ducminhcrlaw@gmail.com</a
         ></span>
-        <!-- <span class="icon"><i class="fa-solid fa-phone-volume"></i><br><a class="footer-link" href="tel:0401-xxx-xxx"> Phone: 0401-xxx-xxx</a>
-        </span> -->
+      
       <span class="icon">
       <i class="fa-brands fa-linkedin"></i><br><a class="footer-link linkedin" href="https://www.linkedin.com/in/minh-nguyen-37812a121/
       ">Linkedin</a
@@ -469,7 +476,7 @@
     </div>
   </section>
 </main>
-<div class="end"></div>
+
   </body>
   </html>
   
