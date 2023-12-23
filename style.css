@@ -210,7 +210,7 @@ table:hover,
 }
 
 .down-link {
-  margin: 2rem auto;
+  margin-top: 2rem;
   justify-content: center;
   display: flex;
   text-decoration: none;

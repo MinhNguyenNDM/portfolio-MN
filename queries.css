@@ -19,7 +19,7 @@
 /* BELOW 930 (Tablets */
 @media (max-width: 59rem) {
   html {
-    font-size: 48%;
+    font-size: 50%;
   }
 
   #lightbox img {
@@ -66,5 +66,14 @@
   #next-btn {
     font-size: 1.2rem;
     top: 52.5%;
+  }
+  .resume {
+    padding: 1rem 0;
+  }
+  .heading-primary {
+    padding-top: 4rem;
+  }
+  .main {
+    padding: 0 2rem;
   }
 }
