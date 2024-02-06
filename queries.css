@@ -74,4 +74,8 @@
   .main {
     padding: 0 2rem;
   }
+
+  .grid {
+    display: block;
+  }
 }
