@@ -234,27 +234,28 @@ table:hover,
 
 /* CONTACT */
 .contact {
-  font-size: 4rem;
   list-style: none;
   margin: 3rem auto;
+  display: block;
 }
 
 .footer-link {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #343a40;
+  margin-top: -20rem;
+  padding-top: -10rem;
 }
 
-.grid--2-cols {
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-}
 .icon {
   text-align: center;
-  padding: auto, 1rem;
-  margin: auto, 2rem;
-  font-weight: 500;
+  margin-bottom: 3rem;
 }
+
+.icon i {
+  font-size: 3rem;
+}
+
 .fa-brands,
 .linkedin {
   background-color: white;
