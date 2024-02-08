@@ -79,3 +79,11 @@
     display: block;
   }
 }
+
+/* BELOW 400 */
+@media (max-width: 25rem) {
+  .skill-tags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
