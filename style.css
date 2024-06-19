@@ -389,3 +389,13 @@ table:hover,
 .description1 {
   font-size: 1.2rem;
 }
+
+/* Additional */
+/* .topic-data li {
+  padding-left: 4rem;
+} */
+
+.topic-data {
+  padding-left: 9rem;
+}
+/*  */
