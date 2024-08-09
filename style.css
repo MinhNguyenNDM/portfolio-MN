@@ -169,7 +169,6 @@ body {
   background-color: #96f2d7;
 }
 .resume {
-  /* padding: 1rem 2rem; */
   font-size: 1.7rem;
   line-height: 2.5rem;
 }
@@ -346,7 +345,7 @@ table:hover,
 .project-attributes {
   list-style: none;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 2rem;
 }
 
@@ -368,7 +367,7 @@ table:hover,
 }
 
 .grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .margin-bottom-md {
@@ -414,4 +413,5 @@ table:hover,
   /* filter: brightness(0); */
   opacity: 80%;
 }
+
 /*  */

@@ -39,6 +39,10 @@
   .skill2 {
     width: 80%;
   }
+
+  .showcase {
+    margin-bottom: 2rem;
+  }
 }
 
 /* BELOW 560 */
@@ -78,6 +82,10 @@
   .grid {
     display: block;
   }
+
+  .showcase {
+    margin-bottom: 2rem;
+  }
 }
 
 /* BELOW 400 */
@@ -85,5 +93,9 @@
   .skill-tags {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .showcase {
+    margin-bottom: 2rem;
   }
 }
