@@ -14,6 +14,10 @@
   #lightbox img {
     max-width: 90%;
   }
+
+  .project-link {
+    font-size: 90%;
+  }
 }
 
 /* BELOW 930 (Tablets */
@@ -24,6 +28,10 @@
 
   #lightbox img {
     max-width: 80%;
+  }
+
+  .project-link {
+    font-size: 75%;
   }
 }
 
@@ -42,6 +50,10 @@
 
   .showcase {
     margin-bottom: 2rem;
+  }
+
+  .project-link {
+    font-size: 75%;
   }
 }
 
@@ -86,6 +98,10 @@
   .showcase {
     margin-bottom: 2rem;
   }
+
+  .project-link {
+    font-size: 80%;
+  }
 }
 
 /* BELOW 400 */
@@ -97,5 +113,9 @@
 
   .showcase {
     margin-bottom: 2rem;
+  }
+
+  .project-link {
+    font-size: 80%;
   }
 }
