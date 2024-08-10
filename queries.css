@@ -102,6 +102,10 @@
   .project-link {
     font-size: 80%;
   }
+
+  .name {
+    font-size: 4.5rem;
+  }
 }
 
 /* BELOW 400 */
@@ -117,5 +121,9 @@
 
   .project-link {
     font-size: 80%;
+  }
+
+  .name {
+    font-size: 4.5rem;
   }
 }
